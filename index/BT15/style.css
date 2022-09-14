@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    /*Custom*/
+    background-color: #333;
+    font-size: 24px;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    /*Custom*/
+    background-color: #111;
+  }
+
+  .BT15 {
+    /*Custom*/
+    background-color: rgb(49, 181, 211);
+    font-size: 32px;
+  }
+  
+  .Right {
+    clear: left;
+    padding-left: 500px;
+  }
+
